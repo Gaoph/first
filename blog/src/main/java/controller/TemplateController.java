@@ -15,7 +15,8 @@ public class TemplateController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        System.out.println("这是新版本");
+//        System.out.println("这是新版本1.1");
+        System.out.println("这是新版本1.2");
         return "Hello World!";
     }
 }
