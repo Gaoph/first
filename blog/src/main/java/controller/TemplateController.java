@@ -16,7 +16,7 @@ public class TemplateController {
     @ResponseBody
     String home() {
 //        System.out.println("这是新版本1.1");
-        System.out.println("这是新版本1.2");
+        System.out.println("这是新版本1.3");
         return "Hello World!";
     }
 }
